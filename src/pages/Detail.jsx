@@ -8,8 +8,10 @@ const Detail = ({ products }) => {
 
     return (
         <>
-            Detail Page
+            <h1> Detail Product</h1>
             <h3>{currentProduct?.name}</h3>
+            <p>{currentProduct?.description}</p>
+            <p><img src={currentProduct?.image} alt="" /></p>
             <p>{currentProduct?.price}</p>
 
         </>)

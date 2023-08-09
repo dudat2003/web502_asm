@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const AddProduct = (props) => {
-    const [inputValue, setInputValue] = useState({ name: "", price: 0 })
+    const [inputValue, setInputValue] = useState()
 
     const onChangeInput = (e) => {
         const { name, value } = e.target;
@@ -28,14 +28,22 @@ const AddProduct = (props) => {
         <div>
             <h1>Add Product</h1>
             <form onSubmit={submit}>
-                <label htmlFor="">
+                <label>
                     <p>Name</p>
                     <input type="text" name="name" placeholder="Name" onChange={onChangeInput} />
                 </label>
 
-                <label htmlFor="">
+                <label>
                     <p>Price</p>
                     <input type="number" name="price" placeholder="Price" onChange={onChangeInput} />
+                </label>
+                <label>
+                    <p>Description</p>
+                    <textarea name="description" placeholder="Description" onChange={onChangeInput} />
+                </label>
+                <label>
+                    <p>Image</p>
+                    <input type="text" name="image" placeholder="Link image" onChange={onChangeInput} />
                 </label>
                 <button type="submit">Add</button>
             </form>

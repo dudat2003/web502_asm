@@ -1,14 +1,58 @@
 {
   "products": [
     {
-      "id": 2,
-      "name": "product 2",
-      "price": 200
+      "name": "ww11",
+      "price": "33322",
+      "description": "2231q31qqq",
+      "image": "12313",
+      "id": 3
     },
     {
-      "name": "update",
-      "price": "3434434",
-      "id": 3
+      "name": "qq",
+      "price": "22",
+      "description": "êwewe",
+      "id": 6
+    },
+    {
+      "name": "Product 1",
+      "price": "100",
+      "description": "Desc 1",
+      "image": "https://picsum.photos/200/100",
+      "id": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Danh muc 1"
+    },
+    {
+      "id": 2,
+      "name": "Danh muc 2"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "admin",
+      "password": "123456",
+      "roleId": 1
+    },
+    {
+      "id": 2,
+      "name": "user",
+      "password": "123456",
+      "roleId": 2
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "name": "admin"
+    },
+    {
+      "id": 2,
+      "name": "user"
     }
   ]
 }

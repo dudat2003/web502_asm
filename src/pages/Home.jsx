@@ -8,12 +8,12 @@ const Home = ({ products }) => {
     return (
         <>
             <Header />
-            {products.map((item, index) => {
+            {products.map((p, index) => {
                 return (
                     <div key={index + 1}>
-                        <h3>{item.name}</h3>
-                        <p>{item.price}</p>
-                        <Link to={`/detail/${item.id}`}><button>Detail</button></Link>
+                        <h3>{p.name}</h3>
+                        <p>{p.price}</p>
+
                     </div>
                 )
             })}

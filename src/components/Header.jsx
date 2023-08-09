@@ -8,7 +8,7 @@ const Header = (props) => {
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">About</a></li>
-                    <li><a href="">Product</a></li>
+                    <li><a href="/admin/product">Admin</a></li>
                 </ul>
             </nav>
         </header>
